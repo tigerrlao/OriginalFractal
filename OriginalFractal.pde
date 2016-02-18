@@ -8,7 +8,7 @@ public void setup()
 }
 public void draw()
 {
-	fill(0,(int)(Math.random()*255),0);
+	fill(0,(int)(Math.random()*155)+100,0);
 	stroke(0,(int)(Math.random()*255),0);
 	for(int m = 0; m<100;m++)
 	{
